@@ -3,8 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Convoy AC</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <h1>Convoy AC Engine</h1>
+
+  <main id="game">
+
+    <div id="scene">
+      <h1>Almacén</h1>
+      <p>Estás en el almacén central de mantenimiento de Argonópolis.</p>
+    </div>
+
+    <div id="output"></div>
+
+    <input 
+      type="text" 
+      id="input" 
+      placeholder="Escribe un comando..."
+      autofocus
+    >
+
+  </main>
+
+  <script src="js/parser.js"></script>
+  <script src="js/game.js"></script>
+
 </body>
 </html>
